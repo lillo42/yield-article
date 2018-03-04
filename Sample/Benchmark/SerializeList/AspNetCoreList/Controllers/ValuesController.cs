@@ -14,7 +14,7 @@ namespace AspNetCoreList.Controllers
         [HttpGet ("NoYield")]
         public IEnumerable<int> NoYield () 
         {
-            var list = new List<int> (MAX);
+            var list = new List<int> ();
             for (int i = 0; i < MAX; i++) 
             {
                 list.Add (i);

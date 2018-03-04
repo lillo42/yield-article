@@ -11,5 +11,5 @@ Frequency=2241013 Hz, Resolution=446.2268 ns, Timer=TSC
 ```
 |       Method |     Mean |     Error |    StdDev |
 |------------- |---------:|----------:|----------:|
-| NoYieldAsync | 237.9 ms | 2.6761 ms | 2.5033 ms |
-|   YieldAsync | 232.0 ms | 0.5463 ms | 0.4265 ms |
+| NoYieldAsync | 238.1 ms | 0.3335 ms | 0.3120 ms |
+|   YieldAsync | 237.7 ms | 0.2220 ms | 0.2077 ms |
